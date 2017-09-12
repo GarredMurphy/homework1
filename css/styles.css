@@ -1,0 +1,59 @@
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+body {
+    background-color:red;
+    color:green;
+}
+header, main, nav, footer {
+    text-align: center;
+}
+nav a {
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: yellow;
+}
+nav a:hover{
+    border-bottom:2px orange solid;
+    font-size: 2em;
+    transition: .9s;
+}
+#me, #welcomeText {
+    float:left;
+}
+#welcomeText {
+    text-align: left;
+}
+footer {
+    font-size: 1em;
+    clear: left;
+    color: blue;
+}
+table {
+    margin: 0px auto;
+}
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: white;
+}
+#table-header {
+    background-color: #000000;
+}
+.table-row {
+    background-color: #00ffff;
+}
+ul {
+    text-align: left;
+    padding-left: 200px;
+}
+.hobby {
+    color: blue;
+}
