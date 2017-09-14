@@ -1,14 +1,18 @@
 h1 {
-    font-family: 'Pacifico', cursive;
     font-size: 4em;
     margin-bottom: 0px;
 }
+h2 {
+    font-size: 3em;
+    margin-bottom: 0px;
+}
 body {
-    background-color:red;
-    color:green;
+    color:yellow;
+    background: radial-gradient(circle, purple, black);
 }
 header, main, nav, footer {
     text-align: center;
+    letter-spacing: -1px;
 }
 nav a {
     padding:15px;
@@ -16,44 +20,43 @@ nav a {
     font-size: 1.8em;
     text-decoration: none;
     color: yellow;
+    opacity: 0.5;
 }
 nav a:hover{
     border-bottom:2px orange solid;
     font-size: 2em;
     transition: .9s;
+    opacity: 1;
 }
-#me, #welcomeText {
-    float:left;
+
+
+#research {
+    vertical-align: top;
 }
-#welcomeText {
-    text-align: left;
-}
+
 footer {
     font-size: 1em;
     clear: left;
     color: blue;
 }
-table {
-    margin: 0px auto;
-}
-td {
-    padding-right: 10px;
-    font-size: 1.3em;
-}
 
-td strong {
-    color: white;
-}
-#table-header {
-    background-color: #000000;
-}
-.table-row {
-    background-color: #00ffff;
-}
 ul {
     text-align: left;
     padding-left: 200px;
 }
-.hobby {
-    color: blue;
+
+q {
+    color: red;
+}
+
+#note {
+    background-color: black;
+}
+
+select {
+    font-size: 1.2em;
+}
+
+#current {
+    font-size-adjust: .5;
 }
